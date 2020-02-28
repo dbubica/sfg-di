@@ -37,5 +37,4 @@ public class SfgDiApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) appContext.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
 	}
-
 }
